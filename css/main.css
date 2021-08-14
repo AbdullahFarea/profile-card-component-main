@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  font-size: 18px;
+  background: url(../images/bg-pattern-bottom.svg) 450% -130% no-repeat, url(../images/bg-pattern-top.svg) -420% 180% no-repeat;
+  background-color: #19a2ae;
+  color: #2d3248;
+}
+
+body .main {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+body .main .profile {
+  display: -ms-grid;
+  display: grid;
+  background: white;
+  width: 80%;
+  max-width: 18.75rem;
+  border-radius: 1rem;
+  min-height: 23.75rem;
+  position: relative;
+  -ms-grid-rows: 3.5fr 1fr 1.7fr;
+      grid-template-rows: 3.5fr 1fr 1.7fr;
+}
+
+body .main .profile .banner {
+  width: 100%;
+  height: 8.75rem;
+  background: url(../images/bg-pattern-card.svg);
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+body .main .profile .avatar {
+  position: absolute;
+  border-radius: 50%;
+  border: 0.3125rem solid white;
+  left: 50%;
+  top: 35%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .main .profile .personal-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5rem;
+}
+
+body .main .profile .name {
+  font-size: 1.2rem;
+}
+
+body .main .profile .age, body .main .profile .location {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #969696;
+  margin-left: 0.3125rem;
+}
+
+body .main .profile .location {
+  margin: 0;
+}
+
+body .main .profile .stats {
+  border-top: 0.03125rem solid #969696;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding-inline: 1rem;
+  padding-block: 2rem 1.5rem;
+}
+
+body .main .profile .stats .stat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5rem;
+}
+
+body .main .profile .stats .stat .num {
+  font-size: 1.1rem;
+}
+
+body .main .profile .stats .stat .category {
+  font-size: small;
+  color: #969696;
+  letter-spacing: 0.0625rem;
+}
+/*# sourceMappingURL=main.css.map */
