@@ -13,8 +13,7 @@ $Darkgray: hsl(0, 0%, 59%);
 }
 body {
     font-size: 18px;
-    background: url(../images/bg-pattern-bottom.svg) 450% -130% no-repeat,
-        url(../images/bg-pattern-top.svg) -420% 180% no-repeat;
+	background: url(../images/bg-pattern-bottom.svg) 40vw 40vh no-repeat, url(../images/bg-pattern-top.svg) right 50vw top -75vh no-repeat;
     background-color: $Darkcyan;
 
     color: $Verydarkdesaturatedblue;
